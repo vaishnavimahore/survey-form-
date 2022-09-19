@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1 id="head">Students survey form</h1>
+            <h2 id="subheading">please fill the form correct</h2>
+        </div>
+        <form>
+            <div id="content1">
+                <label>Name</label><br></br>
+                <input type="name" name="name"placeholder="Enter your name" class="box"> <br></br>
+                <label>Potal Address</label><br></br>
+                <input type="name" name="address"placeholder="Enter your Address" class="box"> <br></br>
+                <label>Gender</label><br></br>
+                <input type="radio" name="gender" checked>Male
+                <input type="radio" name="gender" checked>Female
+                <input type="radio" name="gender" checked>others
+                <label>City</label><br></br>
+                <input type="name" name="city"placeholder="Enter your city name" class="box"> <br></br>
+                
+                <label>Education</label> <br></br>
+                <div id="option1">
+                    <select>
+                <option selected>B.E</option>
+                <option>Bsc </option>
+                <option>BCA</option>
+                <option>politechnic</option>
+                <option>diploma</option>
+                </select>
+                </div>
+            
+                <label>District</label><br></br>
+                <input type="name" name="district"placeholder="Enter your district" class="box"> <br></br>
+                <label>State</label><br></br>
+                <input type="name" name="state"placeholder="Enter your state name" class="box"> <br></br>
+                <label>Pin code</label><br></br>
+                <input type="name" name="name" class="box"> <br></br>
+                <label>Email Id</label><br></br>
+                <input type="name" name="Id"placeholder="Example : abc@gmail.com" class="box"> <br></br>
+                <label>Date of birth</label><br></br>
+                <input type="name" name="DOB"placeholder="DD/MM/YYYY" class="box"> <br></br>
+                <label>Mobile No.</label><br></br>
+                <input type="Number" name="name"placeholder="Enter 10 digit no." class="box"> <br></br>
+                <div class="button">
+                    <input type="Submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
